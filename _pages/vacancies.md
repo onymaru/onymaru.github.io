@@ -1,4 +1,12 @@
-﻿# Вакансии
+﻿---
+title: "Вакансии"
+permalink: /vacancies/
+layout: tags
+author_profile: false
+---
+
+
+# Вакансии
 
 ### Junior PL/SQL Developer
 
