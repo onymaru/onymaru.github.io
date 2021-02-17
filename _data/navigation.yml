@@ -1,20 +1,18 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Вакансии"
+    url: /vacancies/
+  - title: "Наш стэк"
+    url: /stack/
   - title: "About"
     url: /about/
 
 docs:
-  - title: Getting Started
+  - title: Вакансии
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
+      - title: "One"
+        url: /vacancies/#cc-developer
+      - title: "Two"
+        url: /vacancies/#middle-plsql-developer
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
@@ -23,13 +21,3 @@ docs:
     children:
       - title: "Configuration"
         url: /docs/configuration/
-      - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/

@@ -1,12 +1,15 @@
 ﻿---
 title: "Вакансии"
 permalink: /vacancies/
-layout: tags
+layout: single
 author_profile: false
+toc: true
+toc_label: "Вакансии"
+toc_sticky: true
+sidebar:
+  nav: "docs"
 ---
 
-
-# Вакансии
 
 ### Junior PL/SQL Developer
 
@@ -129,7 +132,7 @@ author_profile: false
 
 - Знание любого языка программирования
 
-[Тестовое задание](test-task/qa/index.md)
+[Тестовое задание](/test-task/qa/)
 
 ### Lead QA Engeneer
 
