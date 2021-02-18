@@ -1,0 +1,23 @@
+<!--
+  <p>
+    <a href="https://stackshare.io/stack-soft/stack-soft">
+      <img src="http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" style="width:auto"/>
+    </a>
+  </p>
+
+-->
+<h3>Выполнили задание или есть вопросы?</h3>
+<p>
+<!-- antispam -->
+<SCRIPT TYPE="text/javascript">
+var x = "";
+{% if author.email1 %}
+    x = x + "{{author.email1}}";
+{% endif %}
+  x = x + "@";
+{% if author.email2 %}
+    x = x + "{{author.email2}}";
+{% endif %}
+  document.write('<a href="mailto:' + x + '">'+x+'</a>');
+</SCRIPT>
+</p>

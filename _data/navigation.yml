@@ -1,23 +1,4 @@
 main:
   - title: "Вакансии"
-    url: /vacancies/
-  - title: "Наш стэк"
-    url: /stack/
-  - title: "About"
-    url: /about/
+    url: https://onyma.ru/about/job/
 
-docs:
-  - title: Вакансии
-    children:
-      - title: "One"
-        url: /vacancies/#cc-developer
-      - title: "Two"
-        url: /vacancies/#middle-plsql-developer
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/

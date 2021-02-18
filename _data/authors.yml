@@ -1,0 +1,13 @@
+﻿Pavel Shiryaev:
+  name        : "Pavel Shiryaev"
+  bio         : "Head of Development"
+  avatar      : "/assets/images/ava.png"
+  email1      : pws
+  email2      : stacksoft.ru
+
+Dmitry Volkov:
+  name        : "Dmitry Volkov"
+  bio         : "Development Director"
+  avatar      : "/assets/images/bio-photo.jpg"
+  email1      : vdv
+  email2      : stacksoft.ru
