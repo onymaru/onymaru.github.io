@@ -1,3 +1,11 @@
+---
+title: Задача по SQL
+layout: single-copy
+classes: wide
+author_profile: true
+author: Pavel Shiryaev
+---
+
 ## Исходные данные
 
 Есть таблица с ценами на услуги, живущими во времени.
