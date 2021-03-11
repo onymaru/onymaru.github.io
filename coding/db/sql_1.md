@@ -26,9 +26,9 @@ alter table tariff add constraint uk_tariff unique (service_id, start_dt);
  service_id  | amount |  start_dt
 -----------------------------------
           1  |     10 | 01.02.2021
+          5  |      9 | 01.12.2020
           5  |     10 | 01.02.2021
           5  |     12 | 01.05.2021
-          5  |     20 | 01.12.2021
           1  |     14 | 01.05.2021        
 ```
 
