@@ -36,7 +36,7 @@ alter table tariff add constraint uk_tariff unique (service_id, start_dt);
 
 ## Задача
 
-1. Написать запрос, который вернет актуальную цену услуги с id = 5 на текущую дату.
+1. Написать запрос, который вернет актуальную цену для услуги с id равным 5 на текущую дату.
 ```
 select ... from tariff 
 where ...
