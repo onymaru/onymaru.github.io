@@ -3,7 +3,7 @@ title: Задача по SQL
 layout: single-copy
 classes: wide
 author_profile: true
-author: Pavel Shiryaev
+author: Anton Efimov
 ---
 
 ## Исходные данные

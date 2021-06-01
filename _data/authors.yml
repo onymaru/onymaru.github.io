@@ -11,3 +11,10 @@ Dmitry Volkov:
   avatar      : "/assets/images/bio-photo.jpg"
   email1      : vdv
   email2      : stacksoft.ru
+
+Anton Efimov:
+  name        : "Anton Efimov"
+  bio         : "Lead Developer"
+  avatar      : "/assets/images/bio-photo.jpg"
+  email1      : fdazazel
+  email2      : stacksoft.ru
