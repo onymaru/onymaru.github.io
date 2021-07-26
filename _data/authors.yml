@@ -18,3 +18,10 @@ Anton Efimov:
   avatar      : "/assets/images/bio-photo.jpg"
   email1      : fdazazel
   email2      : stacksoft.ru
+
+Dmitry Bragin:
+  name        : "Dmitry Bragin"
+  bio         : "DevOps Engeneer"
+  avatar      : "/assets/images/bio-photo.jpg"
+  email1      : kuro
+  email2      : stacksoft.ru
