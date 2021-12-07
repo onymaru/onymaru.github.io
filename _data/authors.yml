@@ -25,3 +25,10 @@ Dmitry Bragin:
   avatar      : "/assets/images/bio-photo.jpg"
   email1      : kuro
   email2      : stacksoft.ru
+
+Alice Bystrih:
+  name        : "Алиса Быстрых"
+  bio         : "QA Lead"
+  avatar      : "/assets/images/bio-photo.jpg"
+  email1      : alice
+  email2      : stacksoft.ru

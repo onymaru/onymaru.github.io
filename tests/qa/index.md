@@ -3,7 +3,7 @@ title: Тестовое задание на позицию QA инженера
 layout: single-copy
 classes: wide
 author_profile: true
-author: Pavel Shiryaev
+author: Alice Bystrih
 ---
 
 ## Описание 
