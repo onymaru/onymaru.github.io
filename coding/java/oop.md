@@ -9,7 +9,8 @@ author: Pavel Shiryaev
 
 ## Вопрос 1. Что выведет на экран?
 
-```
+```java
+
 class A{
     public static String txt="A";
 
@@ -48,7 +49,7 @@ class Main {
 
 ## Вопрос 2: Валидный код?
 
-```
+```java
 abstract class A{
     protected int m1(){ return 0; }
 }
@@ -59,7 +60,7 @@ class B extends A{
 
 ## Вопрос 3: Что выведет на экран?
 
-```
+```java
 class A{
     public int myVar=1;
 }
@@ -98,7 +99,7 @@ class Main {
 
 ## Вопрос 4:  Валидный код?
 
-```
+```java
 interface Inter{
     void myInterMethod();
 }
@@ -115,7 +116,7 @@ abstract class AB implements Inter{
 
 ## Вопрос 5:  Валидный код?
 
-```
+```java
 class A{
     A(int a){ }
 }
@@ -130,7 +131,7 @@ class B extends A{
 
 ## Вопрос 6:  Валидный код?
 
-```
+```java
 interface Inter{
     static void myInterMethod();
 }
@@ -141,7 +142,7 @@ interface Inter{
 
 ## Вопрос 7:  Валидный код?
 
-```
+```java
 
 class A {
       void myMethod(){
