@@ -10,18 +10,18 @@ author: Pavel Shiryaev
 ## Вопрос 1. Что выведет на экран?
 
 ```java
-class A{
-    public static String txt="A";
+class A {
+    public static String txt = "A";
 
     static public void myMethod(){
         System.out.println(txt);
     }
 }
 
-class B extends A{
-    static public String txt="B";
+class B extends A {
+    static public String txt = "B";
 
-    static public void myMethod(){
+    static public void myMethod() {
         System.out.println(txt);
     }
 }
@@ -46,28 +46,28 @@ class Main {
 ## Вопрос 2: Валидный код?
 
 ```java
-abstract class A{
-    protected int m1(){ return 0; }
+abstract class A {
+    protected int m1() { return 0; }
 }
-class B extends A{
-    int m1(){ return 1; }
+class B extends A {
+    int m1() { return 1; }
 }
 ```
 
 ## Вопрос 3: Что выведет на экран?
 
 ```java
-class A{
-    public int myVar=1;
+class A {
+    public int myVar = 1;
 }
 
-class B extends A{
+class B extends A {
     {
         myVar = 2;
     }
 }
 
-class C extends B{
+class C extends B {
 }
 
 class Main {
@@ -94,13 +94,13 @@ class Main {
 ## Вопрос 4:  Валидный код?
 
 ```java
-interface Inter{
+interface Inter {
     void myInterMethod();
 }
 
 
-abstract class AB implements Inter{
-    static public void myInterMethod(){
+abstract class AB implements Inter {
+    static public void myInterMethod() {
 
     }
 }
@@ -110,12 +110,12 @@ abstract class AB implements Inter{
 ## Вопрос 5:  Валидный код?
 
 ```java
-class A{
-    A(int a){ }
+class A {
+    A(int a) { }
 }
 
-class B extends A{
-    B(int a){super(a); }
+class B extends A {
+    B(int a) { super(a); }
 }
 ```
 
@@ -124,7 +124,7 @@ class B extends A{
 ## Вопрос 6:  Валидный код?
 
 ```java
-interface Inter{
+interface Inter {
     static void myInterMethod();
 }
 ```
@@ -134,15 +134,13 @@ interface Inter{
 
 ```java
 class A {
-      void myMethod(){
+    void myMethod() {
         System.out.println("hello from A");
     }
-
 }
 
-abstract class B extends A{
-     abstract void myMethod();
-
+abstract class B extends A {
+    abstract void myMethod();
 }
 ```
 
