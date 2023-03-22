@@ -10,7 +10,6 @@ author: Pavel Shiryaev
 ## Вопрос 1. Что выведет на экран?
 
 ```java
-
 class A{
     public static String txt="A";
 
@@ -19,7 +18,6 @@ class A{
     }
 }
 
-
 class B extends A{
     static public String txt="B";
 
@@ -27,7 +25,6 @@ class B extends A{
         System.out.println(txt);
     }
 }
-
 
 class Main {
 
@@ -44,7 +41,6 @@ class Main {
         ab.myMethod();
     }
 }
-
 ```
 
 ## Вопрос 2: Валидный код?
@@ -71,7 +67,6 @@ class B extends A{
     }
 }
 
-
 class C extends B{
 }
 
@@ -92,7 +87,6 @@ class Main {
         System.out.println(a.myVar);
     }
 
-
 }
 ```
 
@@ -110,7 +104,6 @@ abstract class AB implements Inter{
 
     }
 }
-
 ```
 
 
@@ -124,7 +117,6 @@ class A{
 class B extends A{
     B(int a){super(a); }
 }
-
 ```
 
 
@@ -135,15 +127,12 @@ class B extends A{
 interface Inter{
     static void myInterMethod();
 }
-
-
 ```
 
 
 ## Вопрос 7:  Валидный код?
 
 ```java
-
 class A {
       void myMethod(){
         System.out.println("hello from A");
@@ -155,6 +144,5 @@ abstract class B extends A{
      abstract void myMethod();
 
 }
-
 ```
 
