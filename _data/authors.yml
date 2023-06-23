@@ -32,3 +32,10 @@ Alice Bystrih:
   avatar      : "/assets/images/bio-girl.png"
   email1      : alice
   email2      : stacksoft.ru
+
+Sofia Bulycheva:
+  name        : "София Булычева"
+  bio         : "QA Lead"
+  avatar      : "/assets/images/bio-girl.png"
+  email1      : bsa
+  email2      : stacksoft.ru
